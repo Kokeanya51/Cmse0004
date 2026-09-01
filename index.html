@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Okeanya Kingsley Madukaibeya - student developer portfolio">
+    <meta name="theme-color" content="#b5121b">
+    <title>Okeanya Kingsley Madukaibeya | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- =========================
+         HEADER / NAVIGATION
+         ========================= -->
+    <header class="site-header" id="header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="Go to homepage">
+                <span class="brand-mark">OK</span>
+                <span class="brand-text">
+                    <strong>Okeanya Kingsley</strong>
+                    <small>Developer Portfolio</small>
+                </span>
+            </a>
+
+            <button
+                id="hamburger-menu"
+                class="hamburger-menu"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="nav-menu"
+                aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="nav-menu" class="nav-menu" aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#learning">Learning</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button
+                id="dark-mode-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Switch to dark mode"
+                aria-pressed="false">
+                <span class="theme-icon" aria-hidden="true">🌙</span>
+                <span class="theme-label">Dark</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- =========================
+             HERO
+             ========================= -->
+        <section id="home" class="hero-section section">
+            <div class="container hero-grid">
+                <div class="hero-copy" data-animate="fade-in">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>
+                        Okeanya Kingsley
+                        <span>Madukaibeya</span>
+                    </h1>
+
+                    <p class="hero-role">
+                        Full Stack Web &amp; Mobile App Developer
+                    </p>
+
+                    <p class="hero-description">
+                        I am a student at Auxano Institute of Technology, passionate
+                        about learning full stack development and building useful,
+                        accessible digital solutions.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#contact">Get In Touch</a>
+                        <a class="btn btn-secondary" href="#learning">Explore My Learning</a>
+                    </div>
+
+                    <div class="hero-meta" aria-label="Portfolio highlights">
+                        <div>
+                            <strong>5+</strong>
+                            <span>Projects</span>
+                        </div>
+                        <div>
+                            <strong>10+</strong>
+                            <span>Skills</span>
+                        </div>
+                        <div>
+                            <strong>1+</strong>
+                            <span>Year Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" data-animate="slide-up">
+                    <div class="photo-card">
+                        <div class="photo-frame">
+                            <!-- Uploaded photo: keep 21866.jpg in the same folder as this HTML file. -->
+                            <img
+                                src="21866.jpg"
+                                alt="Portrait of Okeanya Kingsley Madukaibeya wearing traditional red attire"
+                                width="1475"
+                                height="1536"
+                                loading="eager"
+                                decoding="async">
+                        </div>
+                        <div class="photo-caption">
+                            <span class="status-dot" aria-hidden="true"></span>
+                            <span>Student Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             ABOUT
+             ========================= -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-heading" data-animate="fade-in">
+                    <p class="eyebrow">ABOUT ME</p>
+                    <h2>Learning today. Building for tomorrow.</h2>
+                    <p>
+                        A simple portfolio that presents my learning journey,
+                        technical interests and development goals.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="content-card" data-animate="slide-up">
+                        <span class="card-number">01</span>
+                        <h3>My Journey</h3>
+                        <p>
+                            I am a dedicated student learning the foundations and
+                            practical techniques of full stack web and mobile app
+                            development. This portfolio represents my hands-on
+                            learning journey.
+                        </p>
+                        <p>
+                            My goal is to become a skilled developer capable of
+                            creating practical digital solutions that address
+                            real-world problems.
+                        </p>
+                    </article>
+
+                    <div class="stats-grid" data-animate="slide-up">
+                        <div class="stat-card">
+                            <strong>5+</strong>
+                            <span>Projects</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>10+</strong>
+                            <span>Skills</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>1+</strong>
+                            <span>Year Learning</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>100%</strong>
+                            <span>Commitment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             LEARNING
+             ========================= -->
+        <section id="learning" class="section learning-section">
+            <div class="container">
+                <div class="section-heading" data-animate="fade-in">
+                    <p class="eyebrow">MY LEARNING PATH</p>
+                    <h2>What I am learning</h2>
+                    <p>
+                        Core technologies and design concepts that form my current
+                        development foundation.
+                    </p>
+                </div>
+
+                <div class="learning-grid">
+                    <article class="learning-card" data-animate="slide-up">
+                        <div class="learning-icon" aria-hidden="true">📚</div>
+                        <h3>HTML Basics</h3>
+                        <p>Semantic and accessible web-page structure using modern HTML.</p>
+                    </article>
+
+                    <article class="learning-card" data-animate="slide-up">
+                        <div class="learning-icon" aria-hidden="true">🎨</div>
+                        <h3>CSS Styling</h3>
+                        <p>Responsive layouts, typography, spacing, animations and modern CSS.</p>
+                    </article>
+
+                    <article class="learning-card" data-animate="slide-up">
+                        <div class="learning-icon" aria-hidden="true">⚙️</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive browser functionality using modern vanilla JavaScript.</p>
+                    </article>
+
+                    <article class="learning-card" data-animate="slide-up">
+                        <div class="learning-icon" aria-hidden="true">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>Interfaces that remain usable across phones, tablets and desktops.</p>
+                    </article>
+
+                    <article class="learning-card" data-animate="slide-up">
+                        <div class="learning-icon" aria-hidden="true">🔧</div>
+                        <h3>Web Development</h3>
+                        <p>Exploring frontend and backend concepts for complete web solutions.</p>
+                    </article>
+
+                    <article class="learning-card" data-animate="slide-up">
+                        <div class="learning-icon" aria-hidden="true">📊</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating interfaces that are clear, intuitive and user-friendly.</p>
+                    </article>
+                </div>
+
+                <div class="steps-wrapper" data-animate="fade-in">
+                    <div class="section-heading compact">
+                        <p class="eyebrow">MY PROCESS</p>
+                        <h2>How I built this page</h2>
+                    </div>
+
+                    <ol class="steps-list">
+                        <li>
+                            <span class="step-number">1</span>
+                            <div>
+                                <h3>Started with HTML</h3>
+                                <p>Created a semantic document structure and meaningful sections.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">2</span>
+                            <div>
+                                <h3>Added the content</h3>
+                                <p>Organised the portfolio information into readable sections.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">3</span>
+                            <div>
+                                <h3>Styled with CSS</h3>
+                                <p>Added the red, white, dark and gold visual language inspired by the uploaded portrait.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">4</span>
+                            <div>
+                                <h3>Added JavaScript</h3>
+                                <p>Implemented navigation, theme switching, validation, animations and accessibility behaviour.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">5</span>
+                            <div>
+                                <h3>Prepared for deployment</h3>
+                                <p>Separated HTML, CSS and JavaScript so the project is easy to maintain and publish.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             CONTACT
+             ========================= -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+                <div class="contact-copy" data-animate="fade-in">
+                    <p class="eyebrow">CONTACT</p>
+                    <h2>Let's connect.</h2>
+                    <p>
+                        Have a question or want to discuss a project or learning
+                        opportunity? Use the form and I will have your message ready
+                        for your preferred email service.
+                    </p>
+
+                    <div class="contact-details">
+                        <p><span aria-hidden="true">📧</span> contact@macokiclinicandmaternityhome.com</p>
+                        <p><span aria-hidden="true">📍</span> Auxano Institute of Technology</p>
+                        <p><span aria-hidden="true">🔗</span>
+                            <a href="https://auxanoinstitute.com" target="_blank" rel="noopener noreferrer">
+                                auxanoinstitute.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <form
+                    id="contact-form"
+                    class="contact-form"
+                    data-animate="slide-up"
+                    novalidate>
+
+                    <div class="form-group">
+                        <label for="name">Full Name <span aria-hidden="true">*</span></label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            class="form-input"
+                            placeholder="John Doe"
+                            autocomplete="name"
+                            minlength="2"
+                            required
+                            aria-describedby="name-error">
+                        <span class="error-message" id="name-error" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="form-input"
+                            placeholder="john@example.com"
+                            autocomplete="email"
+                            required
+                            aria-describedby="email-error">
+                        <span class="error-message" id="email-error" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message <span aria-hidden="true">*</span></label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            class="form-textarea"
+                            placeholder="Your message here..."
+                            rows="6"
+                            minlength="10"
+                            required
+                            aria-describedby="message-error"></textarea>
+                        <span class="error-message" id="message-error" role="alert"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        Validate Message
+                    </button>
+
+                    <div
+                        id="success-message"
+                        class="success-message"
+                        role="status"
+                        aria-live="polite"
+                        hidden>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="current-year">2026</span> Okeanya Kingsley Madukaibeya.</p>
+            <p>Last updated: <time id="last-updated"></time></p>
+        </div>
+    </footer>
+
+    <button
+        id="scroll-to-top"
+        class="scroll-to-top"
+        type="button"
+        aria-label="Scroll to top"
+        title="Scroll to top">
+        ↑
+    </button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
